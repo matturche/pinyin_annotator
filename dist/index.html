@@ -15,8 +15,8 @@
   <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
   
 <script type="module">
-import init, * as bindings from '/pinyin_annotator-dd554531899320e.js';
-const wasm = await init({ module_or_path: '/pinyin_annotator-dd554531899320e_bg.wasm' });
+import init, * as bindings from '/pinyin_annotator-e6ffb5cf38fc96f1.js';
+const wasm = await init({ module_or_path: '/pinyin_annotator-e6ffb5cf38fc96f1_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -25,7 +25,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-<link rel="modulepreload" href="/pinyin_annotator-dd554531899320e.js" crossorigin="anonymous" integrity="sha384-pBH9+Ctf2fzWYt2+MIMoqnxBySAtNEqHD8NxObjoN/7nkkrQZosPj+2ndR3pSFWh"><link rel="preload" href="/pinyin_annotator-dd554531899320e_bg.wasm" crossorigin="anonymous" integrity="sha384-kKBX+U8wCvAorx36Fap4yOuMXhIwaJOFNh8CCg0A4PITyQvj7SX3bS3XVEckACFo" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/pinyin_annotator-e6ffb5cf38fc96f1.js" crossorigin="anonymous" integrity="sha384-pBH9+Ctf2fzWYt2+MIMoqnxBySAtNEqHD8NxObjoN/7nkkrQZosPj+2ndR3pSFWh"><link rel="preload" href="/pinyin_annotator-e6ffb5cf38fc96f1_bg.wasm" crossorigin="anonymous" integrity="sha384-aX1Vyx3Qf3N7sCWr0a0m2sDXViUCmmuGtYW4Ok8+MrE+ze8afg8vLBgvNFPd+6xK" as="fetch" type="application/wasm"></head>
 
 <body></body>
 
