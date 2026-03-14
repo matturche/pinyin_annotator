@@ -1,0 +1,8 @@
+{
+  "title": "Annotez un text chinois avec du pīnyīn !",
+  "subtitle": "Selectionnez un niveau HSK pour n'annoter que les mots inconnus",
+  "hsk_level_legend": "Niveau HSK",
+  "textarea_legend": "Texte à annoter",
+  "textarea_placeholder": "Entrez votre texte ici...",
+  "annotate_button": "Annoter!"
+}
