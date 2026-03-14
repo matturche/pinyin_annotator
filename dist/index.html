@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+  <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+  <!-- <link data-trunk rel="scss" href="public/styles.scss" /> -->
+  
+  
+	<link rel="stylesheet" href="/tailwind-6855df807222c0d0.css" integrity="sha384-sCVYua1tLMuQ6f+ipDQwqcVailVjECZuBootmtwSZoEpQWqHTrS7gZ/lIjIV9ylF"/>
+
+  <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
+  <link rel="icon" href="/favicon-4c25db4844795ad3.ico" integrity="sha384-ihkDual7+a1HRPNW0y3klrYzHBqosv6cOOK/XbevS+pJhUQ0iva7IpzHuqr3kTWp"/>
+
+  <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
+  
+<script type="module">
+import init, * as bindings from '/pinyin_annotator-2b0e36927f58113d.js';
+const wasm = await init({ module_or_path: '/pinyin_annotator-2b0e36927f58113d_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<link rel="modulepreload" href="/pinyin_annotator-2b0e36927f58113d.js" crossorigin="anonymous" integrity="sha384-pBH9+Ctf2fzWYt2+MIMoqnxBySAtNEqHD8NxObjoN/7nkkrQZosPj+2ndR3pSFWh"><link rel="preload" href="/pinyin_annotator-2b0e36927f58113d_bg.wasm" crossorigin="anonymous" integrity="sha384-kdcRxqQeGYaUJl6UBF0O0ShL95lb9TX3uLr68F3cWL+3w5+QiNtHBp2KmpLAyNgv" as="fetch" type="application/wasm"></head>
+
+<body></body>
+
+</html>
