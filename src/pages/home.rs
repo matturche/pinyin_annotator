@@ -133,8 +133,8 @@ pub fn Home() -> impl IntoView {
                             {t!(i18n, annotate_button)}
                         </button>
                     </div>
-                    <div class="flex justify-center">
-                        <div class="px-4 py-4 pb-64 prose sm:prose-xl md:prose-2xl text-base-content text-justify text-pretty font-kai">
+                    <div class="flex justify-center mx-2">
+                        <div class="px-4 py-4 pb-64 prose-2xl text-base-content text-justify text-pretty font-kai">
                             <AnalyzedText text hsk_dict hsk_level />
                         </div>
                     </div>
