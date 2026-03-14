@@ -108,7 +108,7 @@ pub fn Home() -> impl IntoView {
                         </div>
 
                     </div>
-                    <div class="flex justify-center items-center px-16 py-4">
+                    <div class="flex justify-center items-center px-4 py-4">
                         <div class="w-full max-w-[1000px]">
                             <fieldset class="fieldset">
                                 <legend class="fieldset-legend justify-center">
@@ -134,7 +134,7 @@ pub fn Home() -> impl IntoView {
                         </button>
                     </div>
                     <div class="flex justify-center">
-                        <div class="px-16 py-4 pb-64 prose text-2xl text-base-content text-justify font-kai">
+                        <div class="px-4 py-4 pb-64 prose text-2xl text-base-content text-justify font-kai">
                             <AnalyzedText text hsk_dict hsk_level />
                         </div>
                     </div>
