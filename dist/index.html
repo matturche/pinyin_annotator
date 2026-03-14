@@ -7,7 +7,7 @@
   <!-- <link data-trunk rel="scss" href="public/styles.scss" /> -->
   
   
-	<link rel="stylesheet" href="/tailwind-53e3a99b9c00f65c.css" integrity="sha384-WlLDBSOsnMq4YsumBX3VGdARvXWIz02Q0I301fp2BfDBCUK8wRTijx/JBfZAejVb"/>
+	<link rel="stylesheet" href="/tailwind-a390c6bdd4217f53.css" integrity="sha384-PTCnxw3vD0+VTSMSek42MXixiJ/m4+uAZdYN0U7Ty3UtXTOBiAzKrqQuTBpJsm9s"/>
 
   <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
   <link rel="icon" href="/favicon-4c25db4844795ad3.ico" integrity="sha384-ihkDual7+a1HRPNW0y3klrYzHBqosv6cOOK/XbevS+pJhUQ0iva7IpzHuqr3kTWp"/>
@@ -15,8 +15,8 @@
   <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
   
 <script type="module">
-import init, * as bindings from '/pinyin_annotator-7a7150c6b51a953e.js';
-const wasm = await init({ module_or_path: '/pinyin_annotator-7a7150c6b51a953e_bg.wasm' });
+import init, * as bindings from '/pinyin_annotator-711d576f13543f0f.js';
+const wasm = await init({ module_or_path: '/pinyin_annotator-711d576f13543f0f_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -25,7 +25,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-<link rel="modulepreload" href="/pinyin_annotator-7a7150c6b51a953e.js" crossorigin="anonymous" integrity="sha384-pBH9+Ctf2fzWYt2+MIMoqnxBySAtNEqHD8NxObjoN/7nkkrQZosPj+2ndR3pSFWh"><link rel="preload" href="/pinyin_annotator-7a7150c6b51a953e_bg.wasm" crossorigin="anonymous" integrity="sha384-A71By77CDIxjAwIxIxOahZqNe65LvsDPs1C1z0Ni7dgoDtH0pfru1DDsAq7fgUjC" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/pinyin_annotator-711d576f13543f0f.js" crossorigin="anonymous" integrity="sha384-pBH9+Ctf2fzWYt2+MIMoqnxBySAtNEqHD8NxObjoN/7nkkrQZosPj+2ndR3pSFWh"><link rel="preload" href="/pinyin_annotator-711d576f13543f0f_bg.wasm" crossorigin="anonymous" integrity="sha384-cciyoJ5XHF784jxat+LNBW1K716RmSdc88BakWD7XTWpk79bGuIqM6Zx+lZ165Ik" as="fetch" type="application/wasm"></head>
 
 <body></body>
 
