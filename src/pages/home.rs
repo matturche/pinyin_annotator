@@ -134,7 +134,7 @@ pub fn Home() -> impl IntoView {
                         </button>
                     </div>
                     <div class="flex justify-center">
-                        <div class="px-4 py-4 pb-64 prose text-2xl text-base-content text-justify font-kai">
+                        <div class="px-4 py-4 pb-64 prose sm:prose-xl md:prose-2xl text-base-content text-justify text-pretty font-kai">
                             <AnalyzedText text hsk_dict hsk_level />
                         </div>
                     </div>
